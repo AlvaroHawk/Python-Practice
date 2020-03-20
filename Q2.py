@@ -8,7 +8,7 @@ with open('nobelprizes.json','r') as nb:
 
 
 def report(nobelprizeDict):
-    # your code here
+    
     #
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -30,7 +30,7 @@ def report(nobelprizeDict):
 
 
 def get_laureates_and_motivation(nobelprizeDict, year, category):
-    # your code here
+    
     #
     for i in range(len(nobelprizeDict)):
         if nobelprizeDict[i]['year'] == year:
@@ -60,7 +60,7 @@ def get_laureates_and_motivation(nobelprizeDict, year, category):
 
 
 def plot_freqs(nobelprizeDict):
-    # your code here
+    
     # open whitelist.txt first.
     with open('whitelist.txt','r') as cw:
         count_words=[each_words.strip() for each_words in cw]
