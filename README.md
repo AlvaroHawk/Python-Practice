@@ -9,5 +9,5 @@ First task is to implement a function report(), which takes as input the json fi
 Second task is to implement a function get_laureates_and_motivation() which takes as input three arguments: the nobel prize dictionary (same as in the first task), year (a string) and category (a string). This function returns a Pandas DataFrame containing one row per laureate (i.e., a person who has won the Nobel prize).
 Already set four self-test arguments: chemistry in 2010, medicine in 1967, literature in 1973, physics in 1937.
 
-The lask task is to implement a function plot_freqs() which generates six plots, one for each category. The xaxis should contain the 1st, 10th, 20th, 30th, 40th and 50th most frequent word across the motivation sections for each category. The y-axis should refer to the frequency of each word in that category.
+The lask task is to implement a function plot_freqs() which generates six plots, one for each category. The x-axis should contain the 1st, 10th, 20th, 30th, 40th and 50th most frequent word across the motivation sections for each category. The y-axis should refer to the frequency of each word in that category.
 This function will only count the words provided in whitelist.txt.
