@@ -11,7 +11,7 @@ x_bool=True
 x_complex=1+2j
 import random
 import re
-# IMPLEMENT YOUR FUNCTION HERE
+
 def random_converter(x):
     import random
     import re
